@@ -6,5 +6,5 @@
     "graphs": {
         "chat_agent1": "./agents/chat_agent1/agent.py:graph"
     },
-    "env": "./.env"
+    "env": ".env"
 }
