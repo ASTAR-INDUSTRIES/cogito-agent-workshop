@@ -1,10 +1,10 @@
 {
-    "python_version": "3.11.8",
+    "python_version": "3.11",
     "dependencies": [
-        "agents/chat_agent1/requirements.txt"
+        "."
     ],
     "graphs": {
-        "chat_agent1": "./agents/chat_agent1/agent:graph"
+        "chat_agent1": "./agents/chat_agent1/agent.py:graph"
     },
     "env": "./.env"
 }
