@@ -6,7 +6,8 @@
     "graphs": {
         "chat_agent1": "./agents/chat_agent1/agent.py:graph",
         "chat_agent2": "./agents/chat_agent2/agent.py:graph",
-        "crypto_agen1": "./agents/crypto_agent1/agent.py:graph"
+        "crypto_agen1": "./agents/crypto_agent1/agent.py:graph",
+        "crypto_agen2": "./agents/crypto_agent2/agent.py:graph"
     },
     "env": ".env"
 }
