@@ -4,6 +4,7 @@ from typing import Annotated
 
 repl = PythonREPL()
 
+
 @tool
 def python_repl(
     code: Annotated[str, "The python code to execute to generate your chart."],

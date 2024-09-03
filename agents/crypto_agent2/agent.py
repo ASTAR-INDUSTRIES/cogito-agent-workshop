@@ -24,7 +24,7 @@ workflow.add_conditional_edges(
         "create_api_call": "create_api_call",
         "generate": "generate"
     }
-    )
+)
 
 workflow.add_conditional_edges(
     "generate",
@@ -33,6 +33,6 @@ workflow.add_conditional_edges(
         "python_repl": "python_repl",
         "__end__": END
     }
-    )
+)
 
 graph = workflow.compile()
