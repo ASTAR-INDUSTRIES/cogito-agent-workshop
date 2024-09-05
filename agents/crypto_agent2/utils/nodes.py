@@ -99,7 +99,7 @@ def generate(state: GraphState):
         Data: {data}
 
         Your job is to formulate a response that answers the user's question.
-        Use the tool provided to generate a graph if needed.
+        You should always try to return good visual data graphics to help the user understand better.
         """,
     )
     chain = prompt | llm.bind_tools(tools=tools)
