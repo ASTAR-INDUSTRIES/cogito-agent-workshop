@@ -7,7 +7,8 @@
         "chat_agent1": "./agents/chat_agent1/agent.py:graph",
         "chat_agent2": "./agents/chat_agent2/agent.py:graph",
         "crypto_agen1": "./agents/crypto_agent1/agent.py:graph",
-        "crypto_agen2": "./agents/crypto_agent2/agent.py:graph"
+        "crypto_agen2": "./agents/crypto_agent2/agent.py:graph",
+        "test_your_tool": "./agents/test_your_tool/agent.py:graph"
     },
     "env": ".env"
 }
